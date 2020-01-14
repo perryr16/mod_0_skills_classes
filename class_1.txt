@@ -5,13 +5,13 @@ Class: Employee
 Attributes:
 job_description (string)
 name (string)
-superiors (array)
-weight (float)
+weight (integer)
 on_time (boolean)
+favorite_foods (array)
 
 Methods:
 new_job (modifies job_description)
 gets_married (modifies name)
-promotion (modifies superiors array)
 eat_leftovers (adds 1 to weight)
 sleep_in (changes on_time to false)
+gets_food_poisoning (removes shellfish from favorite_foods array)
