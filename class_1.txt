@@ -1,0 +1,17 @@
+Class that might exist in a restaurant
+
+Class: Employee
+
+Attributes:
+job_description (string)
+name (string)
+superiors (array)
+weight (float)
+on_time (boolean)
+
+Methods:
+new_job (modifies job_description)
+gets_married (modifies name)
+promotion (modifies superiors array)
+eat_leftovers (adds 1 to weight)
+sleep_in (changes on_time to false)
